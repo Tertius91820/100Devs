@@ -31,7 +31,9 @@ function rockPaperScissors(){
 
 function checkWin(playerChoice){
     let botChoice = rockPaperScissors()
-    if( (playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'paper' && botChoice === 'rock') || (playerChoice === 'scissors' && botChoice === 'paper') ){
+    if( (playerChoice === 'rock' && botChoice === 'scissors') || 
+        (playerChoice === 'paper' && botChoice === 'rock') || 
+        (playerChoice === 'scissors' && botChoice === 'paper') ){
         console.log('You Win')
     }else if( playerChoice === botChoice ){
         console.log('You Tied')

@@ -7,14 +7,26 @@ let sum = nums.reduce( (acc,c) => acc + c, 0  )
 
 alert(sum)
 
-
-
-
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
+
+function newArr(arr){
+  arr.map((x,i)=> x*x)
+}
+return newArr
 
 //Create a function that takes string
 //Print the reverse of that string to the console
 
+function strReverse(str){
+  return str.split("").reverse().join("")
+}
+console.log(strReverse("long"))
+
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
+
+function isPalindrome(word){
+
+
+}
